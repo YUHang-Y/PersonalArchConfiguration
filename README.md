@@ -241,6 +241,7 @@ nano ~/.config/paru/paru.conf
 #RemoveMake          # 安装后自动删除编译依赖
 #BottomUp            # 搜索结果排序（新的在底部）
 #NewsOnUpgrade       # 更新前显示 Arch 新闻
+#CloneDir            # 自定义下载路径
 ```
 
 ---
@@ -346,6 +347,7 @@ downgrade 软件名                    # 选择历史版本
     paru -G 软件名
     cd 软件名
     cat PKGBUILD  # 手动审查
+    paru Bi . #手动安装
     ```
     
 - **更新开发版 AUR 包**：

@@ -225,7 +225,8 @@ makepkg -si
 # 清理 AUR 构建缓存
 paru -Sc                             # 清理旧版本缓存
 paru -Scc                            # 清理全部缓存
-paru -Yc                             # 清理未使用的依赖
+paru -Qdtq | paru -Rns -             # 查看未使用的依赖
+paru -Qdtq | paru -Rns --noconfirm - # 清理未使用的依赖
 ```
 
 ### ⚙️ **6.5 配置 paru（可选）**

@@ -33,7 +33,7 @@
 ### 命令
 
 ```bash
-bash <(curl -L is.gd/shorinsetup)              #部署快捷键,软件
+bash <(curl -L is.gd/shorinsetup)              #部署快捷键,软件,桌面 建议直接选择这个
 curl -fsSL https://install.danklinux.com | sh  #部署桌面
 ```
 

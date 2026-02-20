@@ -279,7 +279,7 @@ paru -S pycharm-professional
 sudo pacman -Qdtq | sudo pacman -Rs -
 
 # 清理缓存（官方 + AUR）
-sudo pacman -Scc && paru -Scc && paru -Yc
+sudo pacman -Scc && paru -Scc 
 ```
 
 ### 🔧 **8.3 修复依赖问题**
